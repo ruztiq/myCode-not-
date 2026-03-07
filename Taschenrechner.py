@@ -42,8 +42,8 @@ def taschenrechner():
         answer = operations[operator](n1, n2)
         print(f'{n1} {operator} {n2} = {answer}')
 
-        choise = input(f'Wollen Sie mit der Zahl {answer} weiter rechnen? y or n ')
-        if choise == "y":
+        choice = input(f'Wollen Sie mit der Zahl {answer} weiter rechnen? y or n ')
+        if choice == "y":
             n1 = answer
         else:
             weiter_rechnen = False
