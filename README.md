@@ -1,2 +1,1 @@
-# myCode-not-
-practice-projects
+#practice-projects
